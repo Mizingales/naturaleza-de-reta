@@ -9,6 +9,7 @@ const closeButton = dialog.querySelector(".species-dialog__close");
 const modalImage = dialog.querySelector("#species-modal-image");
 const modalImagePlaceholder = dialog.querySelector("#species-modal-image-placeholder");
 const modalTips = dialog.querySelector("#species-modal-tips");
+let activeCard = null;
 
 const normalize = (value) => value
   .normalize("NFD")
@@ -47,7 +48,21 @@ const filterSpecies = () => {
     : `Se muestran ${visibleCount} fichas.`;
 };
 
+const closeSpeciesDialog = (restoreFocus) => {
+  const trigger = activeCard;
+  dialog.close();
+  activeCard = null;
+  if (!trigger) return;
+
+  if (restoreFocus) {
+    trigger.focus({ preventScroll: true });
+  } else {
+    trigger.blur();
+  }
+};
+
 const openSpeciesDialog = (card) => {
+  activeCard = card;
   dialog.querySelector("#species-dialog-title").textContent = card.dataset.name;
   dialog.querySelector("#species-modal-type").textContent = card.dataset.type;
   dialog.querySelector("#species-modal-habitat").textContent = card.dataset.habitat;
@@ -58,10 +73,12 @@ const openSpeciesDialog = (card) => {
   const cardImage = card.querySelector("img");
   if (cardImage) {
     modalImage.src = cardImage.getAttribute("src");
+    modalImage.alt = cardImage.alt || card.dataset.name;
     modalImage.hidden = false;
     modalImagePlaceholder.hidden = true;
   } else {
     modalImage.removeAttribute("src");
+    modalImage.alt = "";
     modalImage.hidden = true;
     modalImagePlaceholder.hidden = false;
   }
@@ -90,13 +107,13 @@ speciesCards.forEach((card) => {
   card.addEventListener("click", () => openSpeciesDialog(card));
 });
 
-closeButton.addEventListener("click", () => dialog.close());
+closeButton.addEventListener("click", (event) => closeSpeciesDialog(event.detail === 0));
 dialog.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     event.preventDefault();
-    dialog.close();
+    closeSpeciesDialog(true);
   }
 });
 dialog.addEventListener("click", (event) => {
-  if (!dialogPanel.contains(event.target)) dialog.close();
+  if (!dialogPanel.contains(event.target)) closeSpeciesDialog(event.detail === 0);
 });

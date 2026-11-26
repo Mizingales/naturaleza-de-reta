@@ -14,6 +14,7 @@
   <script src="biodiversidad.js" defer></script>
 </head>
 <body data-catalog="plant">
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
   <header class="site-header site-header--inner">
     <div class="site-header__inner">
       <a class="brand" href="index.html#inicio" aria-label="Naturaleza de Reta, inicio">
@@ -35,47 +36,119 @@
     </div>
   </header>
 
-  <main class="subpage">
+  <main id="contenido-principal" class="subpage">
     <section class="subpage-hero" aria-labelledby="page-title">
       <div class="subpage-hero__content">
-        <p class="text breadcrumb"><a class="link" href="biodiversidad.html">Biodiversidad</a> / Plantas</p>
+        <nav class="breadcrumb" aria-label="Ruta de navegación"><a class="link" href="biodiversidad.html">Biodiversidad</a> / Plantas</nav>
         <h1 class="heading subpage-hero__title" id="page-title">Plantas</h1>
         <p class="text subpage-hero__description">Buscá una especie o seleccioná una ficha para conocer más.</p>
       </div>
     </section>
 
     <section class="subpage-content species-catalog" aria-labelledby="page-title">
-      <form class="species-search" role="search">
+      <form class="form-field species-search" role="search">
         <label class="species-search__label" for="species-search">Buscar plantas</label>
-        <input class="species-search__input" id="species-search" type="search" name="especie" placeholder="Buscar por nombre" autocomplete="off">
+        <input class="input species-search__input" id="species-search" type="search" name="especie" placeholder="Buscar por nombre" autocomplete="off">
         <p class="text species-search__status" id="search-status" aria-live="polite">Se muestran 6 fichas.</p>
       </form>
 
       <div class="species-catalog__grid" id="species-grid">
-        <button class="species-card" type="button" data-species-card data-name="Especie vegetal 1" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
-          <span class="species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
-          <span class="species-card__name">Especie vegetal 1</span>
-        </button>
-        <button class="species-card" type="button" data-species-card data-name="Especie vegetal 2" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
-          <span class="species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
-          <span class="species-card__name">Especie vegetal 2</span>
-        </button>
-        <button class="species-card" type="button" data-species-card data-name="Especie vegetal 3" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
-          <span class="species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
-          <span class="species-card__name">Especie vegetal 3</span>
-        </button>
-        <button class="species-card" type="button" data-species-card data-name="Especie vegetal 4" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
-          <span class="species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
-          <span class="species-card__name">Especie vegetal 4</span>
-        </button>
-        <button class="species-card" type="button" data-species-card data-name="Especie vegetal 5" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
-          <span class="species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
-          <span class="species-card__name">Especie vegetal 5</span>
-        </button>
-        <button class="species-card" type="button" data-species-card data-name="Especie vegetal 6" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
-          <span class="species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
-          <span class="species-card__name">Especie vegetal 6</span>
-        </button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie vegetal 1" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie vegetal 1</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Planta</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie vegetal 2" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie vegetal 2</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Planta</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie vegetal 3" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie vegetal 3</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Planta</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie vegetal 4" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie vegetal 4</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Planta</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie vegetal 5" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie vegetal 5</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Planta</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie vegetal 6" data-type="Planta" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie vegetal 6</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Planta</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
       </div>
       <p class="text species-catalog__empty" id="search-empty" hidden>No encontramos fichas con ese nombre. Probá otra búsqueda.</p>
       <div class="subpage-actions">
@@ -113,7 +186,7 @@
   <footer class="site-footer">
     <div class="site-footer__inner">
       <a class="brand brand--footer" href="index.html#inicio" aria-label="Naturaleza de Reta, volver al inicio">
-        <img class="brand__logo" src="img/naturaleza-de-reta-logo-verde.svg" alt="">
+        <img class="brand__logo" src="img/naturaleza-de-reta-logo-verde.svg" alt="" loading="lazy">
       </a>
       <nav class="footer-nav" aria-label="Navegación principal del pie de página">
         <a class="link" href="index.html#inicio">Inicio</a>
@@ -126,9 +199,9 @@
         <a class="link" href="sumate.html">Sumate</a>
       </nav>
       <div class="footer-social" aria-label="Redes sociales">
-        <a class="icon" href="https://www.instagram.com/" aria-label="Instagram"><img src="img/icons/instagram-icon.png" alt=""></a>
-        <a class="icon" href="https://www.facebook.com/" aria-label="Facebook"><img src="img/icons/facebook-icon.png" alt=""></a>
-        <a class="icon" href="mailto:contacto@naturalezadereta.org" aria-label="Enviar correo"><img src="img/icons/mail-icon.png" alt=""></a>
+        <a class="icon" href="https://www.instagram.com/" aria-label="Instagram"><img src="img/icons/instagram-icon.png" alt="" loading="lazy"></a>
+        <a class="icon" href="https://www.facebook.com/" aria-label="Facebook"><img src="img/icons/facebook-icon.png" alt="" loading="lazy"></a>
+        <a class="icon" href="mailto:contacto@naturalezadereta.org" aria-label="Enviar correo"><img src="img/icons/mail-icon.png" alt="" loading="lazy"></a>
       </div>
     </div>
   </footer>

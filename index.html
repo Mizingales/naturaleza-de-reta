@@ -11,8 +11,10 @@
   <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="48x48">
   <link rel="stylesheet" href="styles.css">
   <script src="navigation.js" defer></script>
+  <script src="home.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
   <header class="site-header" id="inicio">
   <div class="site-header__inner">
     <a class="brand" href="index.html#inicio" aria-label="Naturaleza de Reta, inicio">
@@ -36,7 +38,7 @@
   </div>
   </header>
 
-  <main class="page-layout">
+  <main id="contenido-principal" class="page-layout">
     <section class="hero" aria-labelledby="hero-title">
       <img class="hero__image" src="img/pato-hero.png" alt="Ave acuática nadando en la albufera de Reta">
       <div class="hero__shade" aria-hidden="true"></div>
@@ -44,7 +46,7 @@
         <h1 class="heading hero__title" id="hero-title">La vida en la albufera</h1>
         <p class="text hero__description">Su entorno de juncales y pastizales costeros es refugio de una gran biodiversidad. Destaca por la observación de aves como flamencos rosados, patos silvestres, garzas y chorlos.</p>
         <p class="text hero__description">Te invitamos a conocerla en profundidad.</p>
-        <a class="button button--light" href="ambientes.html#albufera">Explorá la albufera <span aria-hidden="true">→</span></a>
+        <a class="button button--light" href="ambiente-albufera.html">Explorá la albufera <span aria-hidden="true">→</span></a>
       </div>
     </section>
 
@@ -55,9 +57,9 @@
       </div>
       <div class="environment-grid">
         <article class="card card--environment">
-          <a class="card__link" href="ambientes.html#albufera">
+          <a class="card__link" href="ambiente-albufera.html">
             <div class="card__content">
-            <img class="image card__image" src="img/albufera.jpg" alt="Vista de la albufera y sus orillas">
+            <img class="image card__image" src="img/albufera.jpg" alt="Vista de la albufera y sus orillas" loading="lazy">
             <div class="card__body">
               <h3 class="heading card__title">Albúfera</h3>
               <p class="text card__description">El mar y el río convergen en un ecosistema único.</p>
@@ -68,9 +70,9 @@
           </a>
         </article>
         <article class="card card--environment">
-          <a class="card__link" href="ambientes.html#playa">
+          <a class="card__link" href="ambiente-playa.html">
             <div class="card__content">
-            <img class="image card__image" src="img/playas.jpg" alt="Atardecer sobre la playa de Reta">
+            <img class="image card__image" src="img/playa.jpg" alt="Atardecer sobre la playa de Reta" loading="lazy">
             <div class="card__body">
               <h3 class="heading card__title">Playa</h3>
               <p class="text card__description">La extensa orilla del océano Atlántico.</p>
@@ -81,9 +83,9 @@
           </a>
         </article>
         <article class="card card--environment">
-          <a class="card__link" href="ambientes.html#medanos">
+          <a class="card__link" href="ambiente-medanos.html">
             <div class="card__content">
-            <img class="image card__image" src="img/medanos.webp" alt="Médanos costeros con vegetación natural">
+            <img class="image card__image" src="img/medanos.webp" alt="Médanos costeros con vegetación natural" loading="lazy">
             <div class="card__body">
               <h3 class="heading card__title">Médanos</h3>
               <p class="text card__description">Un resguardo ante los fuertes vientos.</p>
@@ -101,7 +103,7 @@
 
     <section class="editorial-section conservation-section" id="conservacion" aria-labelledby="conservation-title">
       <div class="editorial-section__grid">
-        <img class="image editorial-section__image" src="img/cartel-area-protegida.jpg" alt="Fauna silvestre en su ambiente natural">
+        <img class="image editorial-section__image" src="img/cartel-area-protegida.jpg" alt="Fauna silvestre en su ambiente natural" loading="lazy">
         <div class="editorial-section__content">
           <h2 class="heading editorial-section__title" id="conservation-title">Conocer para preservar</h2>
           <p class="text">Los ambientes naturales de Reta albergan una gran diversidad de especies y cumplen un papel fundamental en el equilibrio del ecosistema. Conocer su valor es el primer paso para reconocer las amenazas que enfrentan y promover su cuidado.</p>
@@ -119,7 +121,7 @@
         <article class="card card--species">
           <a class="card__link" href="biodiversidad-animales.html?especie=garza">
             <div class="card__content">
-            <img class="image card__image" src="img/garza.jpg" alt="Garza en un ambiente de humedal">
+            <img class="image card__image" src="img/garza.jpg" alt="Garza en un ambiente de humedal" loading="lazy">
             <div class="card__body"><h3 class="heading card__title">Garza</h3><p class="text card__description">Ave asociada a humedales y orillas, donde busca peces y pequeños animales.</p><span class="card__read-more">Leer más</span></div>
             </div>
           </a>
@@ -127,7 +129,7 @@
         <article class="card card--species">
           <a class="card__link" href="biodiversidad-animales.html?especie=colibri">
             <div class="card__content">
-            <img class="image card__image" src="img/colibri.jpg" alt="Colibrí alimentándose de una flor">
+            <img class="image card__image" src="img/colibri.jpg" alt="Colibrí alimentándose de una flor" loading="lazy">
             <div class="card__body"><h3 class="heading card__title">Colibrí</h3><p class="text card__description">Pequeña ave que se alimenta principalmente del néctar de las flores.</p><span class="card__read-more">Leer más</span></div>
             </div>
           </a>
@@ -135,7 +137,7 @@
         <article class="card card--species">
           <a class="card__link" href="biodiversidad-animales.html?especie=lechuza">
             <div class="card__content">
-            <img class="image card__image" src="img/lechuza.jpg" alt="Lechuza entre pastos naturales">
+            <img class="image card__image" src="img/lechuza.jpg" alt="Lechuza entre pastos naturales" loading="lazy">
             <div class="card__body"><h3 class="heading card__title">Lechuza</h3><p class="text card__description">Ave rapaz que contribuye al equilibrio de las poblaciones de pequeños animales.</p><span class="card__read-more">Leer más</span></div>
             </div>
           </a>
@@ -143,7 +145,7 @@
         <article class="card card--species">
           <a class="card__link" href="biodiversidad-animales.html?especie=flamenco">
             <div class="card__content">
-            <img class="image card__image" src="img/flamenco.jpg" alt="Flamenco en aguas poco profundas">
+            <img class="image card__image" src="img/flamenco.jpg" alt="Flamenco en aguas poco profundas" loading="lazy">
             <div class="card__body"><h3 class="heading card__title">Flamenco</h3><p class="text card__description">Ave acuática que puede observarse en ambientes costeros y lagunas.</p><span class="card__read-more">Leer más</span></div>
             </div>
           </a>
@@ -151,16 +153,16 @@
         <article class="card card--species">
           <a class="card__link" href="biodiversidad-animales.html?especie=tucu-tucu">
             <div class="card__content">
-            <img class="image card__image" src="img/tucu-tucu.png" alt="Tucu-tucu entre la vegetación y el suelo arenoso">
+            <img class="image card__image" src="img/tucu-tucu.png" alt="Tucu-tucu entre la vegetación y el suelo arenoso" loading="lazy">
             <div class="card__body"><h3 class="heading card__title">Tucu-tucu</h3><p class="text card__description">Pequeño mamífero subterráneo adaptado a los suelos arenosos.</p><span class="card__read-more">Leer más</span></div>
             </div>
           </a>
         </article>
-        <article class="card card--species card--species-placeholder">
-          <a class="card__link" href="biodiversidad-animales.html?especie=especie-pendiente">
+        <article class="card card--species">
+          <a class="card__link" href="biodiversidad-plantas.html?especie=especie-vegetal-1">
             <div class="card__content">
             <div class="card__image card__image--placeholder" aria-hidden="true"></div>
-            <div class="card__body"><h3 class="heading card__title">Ficha en preparación</h3><span class="card__read-more">Leer más</span></div>
+            <div class="card__body"><h3 class="heading card__title">Especie vegetal 1</h3><p class="text card__description">Descripción general en preparación.</p><span class="card__read-more">Leer más</span></div>
             </div>
           </a>
         </article>
@@ -175,12 +177,12 @@
       <p class="text">La iniciativa se vuelve acción.</p>
     </div>
       <div class="project__panel">
-        <img class="image project__image" src="img/recolectores.webp" alt="Personas colaborando en el cuidado de la playa">
+        <img class="image project__image" src="img/recolectores.webp" alt="Personas colaborando en el cuidado de la playa" loading="lazy">
         <div class="project__content">
           <p class="text">Somos un equipo de personas autoconvocadas dedicadas a conocer, documentar y difundir la riqueza natural de Reta. Buscamos generar conciencia sobre el valor de sus ambientes y promover su conservación.</p>
           <p class="text" id="participa">¿Te interesa ayudarnos? Podés sumar tus observaciones, compartir información o contactarnos para colaborar con la iniciativa.</p>
         </div>
-        <img class="image project__image project__image--secondary" src="img/puesta-de-sol.jpg" alt="Atardecer sobre la costa de Reta">
+        <img class="image project__image project__image--secondary" src="img/playa.jpg" alt="Atardecer sobre la costa de Reta" loading="lazy">
       </div>
       <div class="project__actions">
         <a class="button button--accent" href="proyecto.html">Conocé el proyecto</a>
@@ -192,7 +194,7 @@
   <footer class="site-footer">
     <div class="site-footer__inner">
       <a class="brand brand--footer" href="index.html#inicio" aria-label="Naturaleza de Reta, volver al inicio">
-        <img class="brand__logo" src="img/naturaleza-de-reta-logo-verde.svg" alt="">
+        <img class="brand__logo" src="img/naturaleza-de-reta-logo-verde.svg" alt="" loading="lazy">
       </a>
       <nav class="footer-nav" aria-label="Navegación del pie de página">
         <a class="link" href="index.html#inicio">Inicio</a><a class="link" href="ambientes.html">Ambientes</a><a class="link" href="biodiversidad.html">Biodiversidad</a>
@@ -201,7 +203,7 @@
         <a class="link" href="conservacion.html">Conservación</a><a class="link" href="proyecto.html">El proyecto</a><a class="link" href="sumate.html">Sumate</a>
       </nav>
       <div class="footer-social" aria-label="Redes sociales">
-        <a class="icon" href="https://www.instagram.com/" aria-label="Instagram"><img src="img/icons/instagram-icon.png" alt=""></a><a class="icon" href="https://www.facebook.com/" aria-label="Facebook"><img src="img/icons/facebook-icon.png" alt=""></a><a class="icon" href="mailto:contacto@naturalezadereta.org" aria-label="Enviar correo"><img src="img/icons/mail-icon.png" alt=""></a>
+        <a class="icon" href="https://www.instagram.com/" aria-label="Instagram"><img src="img/icons/instagram-icon.png" alt="" loading="lazy"></a><a class="icon" href="https://www.facebook.com/" aria-label="Facebook"><img src="img/icons/facebook-icon.png" alt="" loading="lazy"></a><a class="icon" href="mailto:contacto@naturalezadereta.org" aria-label="Enviar correo"><img src="img/icons/mail-icon.png" alt="" loading="lazy"></a>
       </div>
     </div>
   </footer>

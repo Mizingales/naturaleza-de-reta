@@ -31,7 +31,7 @@ La navegación principal debe permitir acceder a estas seis secciones. Las pági
   - **Caracolero:** página individual del ambiente.
   - **Pinar:** página individual del ambiente.
   - **Río:** página general del ambiente fluvial, con acceso a tres destinos relacionados:
-    - Desembocadura del Quequén.
+    - Desembocadura del Río Quequén Salado.
     - Cueva del Tigre.
     - Cascada Cifuentes.
 
@@ -109,7 +109,7 @@ Los accesos directos desde las tarjetas de especies de Inicio deben permitir ide
 - Mantener diferenciadas las seis secciones principales.
 - No confundir los accesos directos desde Inicio con la jerarquía principal del sitio.
 - Mantener Playa y Mar como contenidos separados.
-- Mantener los tres destinos —Desembocadura del Quequén, Cueva del Tigre y Cascada Cifuentes— dentro de la estructura de Río.
+- Mantener los tres destinos —Desembocadura del Río Quequén Salado, Cueva del Tigre y Cascada Cifuentes— dentro de la estructura de Río.
 - Mantener Plantas y Animales como subsecciones de Biodiversidad, con sus respectivos buscadores y fichas individuales.
 - Antes de crear una página o modificar un enlace, inspeccionar la estructura HTML, CSS y JavaScript relacionada y comprobar si el contenido ya está implementado.
 - No inventar rutas, archivos, especies, contenidos ni funcionalidades.
