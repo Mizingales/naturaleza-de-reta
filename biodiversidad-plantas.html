@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="48x48">
   <link rel="stylesheet" href="styles.css">
+  <script src="navigation.js" defer></script>
   <script src="biodiversidad.js" defer></script>
 </head>
 <body data-catalog="plant">
@@ -18,7 +19,12 @@
       <a class="brand" href="index.html#inicio" aria-label="Naturaleza de Reta, inicio">
         <img class="brand__logo" src="img/naturaleza-de-reta-logo-blanco.svg" alt="">
       </a>
-      <nav class="site-nav" aria-label="Navegación principal">
+      <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menú principal" hidden>
+        <span class="menu-toggle__line" aria-hidden="true"></span>
+        <span class="menu-toggle__line" aria-hidden="true"></span>
+        <span class="menu-toggle__line" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Navegación principal">
         <a class="nav-item" href="index.html#inicio">Inicio</a>
         <a class="nav-item" href="ambientes.html">Ambientes</a>
         <a class="nav-item" href="biodiversidad.html" aria-current="page">Biodiversidad</a>
