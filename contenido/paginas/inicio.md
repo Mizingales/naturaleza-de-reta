@@ -45,17 +45,13 @@ Fuente: `index.html`.
 - Título: `El proyecto`
 - Bajada: `La iniciativa se vuelve acción.`
 - Texto: `Somos un equipo de personas autoconvocadas dedicadas a conocer, documentar y difundir la riqueza natural de Reta. Buscamos generar conciencia sobre el valor de sus ambientes y promover su conservación.`
-- Texto: `¿Te interesa ayudarnos? Podés sumar tus observaciones, compartir información o contactarnos para colaborar con la iniciativa.`
+- Texto: `¿Te interesa ayudarnos? Podés sumar tus observaciones, compartir información útil y fotografías. ¡Contactanos para colaborar con la iniciativa!`
 - Botón: `Conocé el proyecto`
 - Destino: `proyecto.html`
 - Botón: `Sumate al equipo`
 - Destino: `sumate.html`
 - Imagen principal: `img/recolectores.webp`
 - Texto alternativo de la imagen principal: `Personas colaborando en el cuidado de la playa`
-- Imagen secundaria: `img/playa.jpg`
-- Texto alternativo de la imagen secundaria: `Atardecer sobre la costa de Reta`
-
-La imagen secundaria puede ocultarse por CSS en los breakpoints responsive; su texto alternativo se conserva porque forma parte del HTML.
 
 ## Tarjetas aleatorias
 
