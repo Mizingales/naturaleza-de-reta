@@ -50,8 +50,8 @@ Fuente: `index.html`.
 - Destino: `proyecto.html`
 - Botón: `Sumate al equipo`
 - Destino: `sumate.html`
-- Imagen principal: `img/recolectores.webp`
-- Texto alternativo de la imagen principal: `Personas colaborando en el cuidado de la playa`
+- Imagen: `img/recolectores.webp`
+- Texto alternativo: `Personas colaborando en el cuidado de la playa`
 
 ## Tarjetas aleatorias
 
