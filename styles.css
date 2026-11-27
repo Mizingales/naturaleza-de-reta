@@ -263,7 +263,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 .environment-detail__breadcrumb { margin-bottom: 0; font-family: var(--font-body); font-size: var(--font-size-small); }
 .environment-detail__breadcrumb ol { display: flex; flex-wrap: wrap; gap: var(--spacing-xs); margin: 0; padding: 0; list-style: none; }
 .environment-detail__breadcrumb li + li::before { margin-right: var(--spacing-xs); color: var(--color-secondary); content: "/"; }
-.environment-article__title { font-size: clamp(var(--font-size-detail-title-min), 5vw, var(--font-size-display)); font-weight: 700; }
+.environment-article__title { font-size: clamp(var(--font-size-h2), 5vw, var(--font-size-display)); }
 .environment-article__subtitle { font-size: clamp(var(--font-size-h4), 3vw, var(--font-size-h2)); font-weight: 400; }
 .environment-article__lead, .environment-article__body { font-family: var(--font-body); font-size: var(--font-size-body); font-weight: 400; line-height: 1.65; }
 .environment-article__hero-media { display: grid; gap: var(--spacing-xs); }
