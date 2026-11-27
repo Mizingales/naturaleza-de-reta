@@ -1,6 +1,6 @@
 # Cueva del Tigre
 
-Fuente: `ambientes.html#cueva-del-tigre`.
+Fuente: `ambiente-rio-cueva-del-tigre.html`.
 
 ## Contenido
 
@@ -9,3 +9,5 @@ Fuente: `ambientes.html#cueva-del-tigre`.
 - Placeholder de imagen: `Imagen pendiente`
 
 El placeholder de imagen tiene `aria-hidden="true"`.
+
+La página se enlaza desde Río y vuelve a `ambiente-rio.html`.

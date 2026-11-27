@@ -5,7 +5,14 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 ## Tarjeta
 
 - Nombre: `Flamenco`
-- Imagen: `img/flamenco.jpg` (la imagen usa `alt=""` en la tarjeta).
+- Imagen: `img/flamenco.jpg`
+- Texto alternativo en el catálogo: `Flamenco caminando con las alas desplegadas en aguas poco profundas`
+
+### Tarjeta aleatoria de Inicio
+
+- Descripción: `Ave acuática que puede observarse en ambientes costeros y lagunas.`
+- Texto alternativo: `Flamenco en aguas poco profundas`
+- Destino: `biodiversidad-animales.html?especie=flamenco`
 
 ## Ficha emergente
 

@@ -5,7 +5,14 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 ## Tarjeta
 
 - Nombre: `Tucu-tucu`
-- Imagen: `img/tucu-tucu.png` (la imagen usa `alt=""` en la tarjeta).
+- Imagen: `img/tucu-tucu.png`
+- Texto alternativo en el catálogo: `Tucu-tucu asomándose desde un montículo de tierra`
+
+### Tarjeta aleatoria de Inicio
+
+- Descripción: `Pequeño mamífero subterráneo adaptado a los suelos arenosos.`
+- Texto alternativo: `Tucu-tucu entre la vegetación y el suelo arenoso`
+- Destino: `biodiversidad-animales.html?especie=tucu-tucu`
 
 ## Ficha emergente
 

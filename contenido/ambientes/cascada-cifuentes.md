@@ -1,6 +1,6 @@
 # Cascada Cifuentes
 
-Fuente: `ambientes.html#cascada-cifuentes`.
+Fuente: `ambiente-rio-cascada-cifuentes.html`.
 
 ## Contenido
 
@@ -9,3 +9,5 @@ Fuente: `ambientes.html#cascada-cifuentes`.
 - Placeholder de imagen: `Imagen pendiente`
 
 El placeholder de imagen tiene `aria-hidden="true"`.
+
+La página se enlaza desde Río y vuelve a `ambiente-rio.html`.

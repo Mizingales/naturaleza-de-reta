@@ -10,28 +10,29 @@ Fuente: `ambientes.html`.
 ## Encabezado de página
 
 - Título: `Ambientes`
-- Bajada: `Espacios diversos que conviven en perfecto equilibrio.`
+- Bajada: `Conocé los ambientes de Reta. Las tarjetas están ordenadas alfabéticamente; usá el buscador para encontrar uno.`
 
-## Índice
+## Buscador
 
-- Nombre accesible de la navegación: `Ambientes en esta página`
-- Título: `Explorá los ambientes`
-- Enlaces: `Albufera` → `#albufera`, `Playa` → `#playa`, `Mar` → `#mar`, `Médanos` → `#medanos`, `Pastizal` → `#pastizal`, `Caracolero` → `#caracolero`, `Pinar` → `#pinar`, `Río` → `#rio`
-- Enlaces dentro de Río: `Desembocadura del Quequén` → `#desembocadura-quequen`, `Cueva del Tigre` → `#cueva-del-tigre`, `Cascada Cifuentes` → `#cascada-cifuentes`
+- Etiqueta accesible: `Buscar un ambiente`
+- Placeholder: `Buscar...`
+- Sin resultados: `No encontramos ambientes que coincidan con tu búsqueda.`
 
-Los textos de cada ficha se encuentran en [ambientes/](../ambientes/). Son secciones con anclas dentro de `ambientes.html`, no páginas HTML independientes.
+## Catálogo
 
-## Botón final
+Las tarjetas aparecen en orden alfabético y enlazan a páginas HTML individuales. Los textos de cada ficha se mantienen en el Markdown correspondiente.
 
-- `Explorá la biodiversidad →`
-- Destino: `biodiversidad.html`
+- [Albúfera](../ambientes/albufera.md) → `ambiente-albufera.html`
+- [Caracolero](../ambientes/caracolero.md) → `ambiente-caracolero.html`
+- [Mar](../ambientes/mar.md) → `ambiente-mar.html`
+- [Médanos](../ambientes/medanos.md) → `ambiente-medanos.html`
+- [Pastizal](../ambientes/pastizal.md) → `ambiente-pastizal.html`
+- [Pinar](../ambientes/pinar.md) → `ambiente-pinar.html`
+- [Playa](../ambientes/playa.md) → `ambiente-playa.html`
+- [Río](../ambientes/rio.md) → `ambiente-rio.html`
 
-## Texto alternativo
+### Destinos del Río
 
-Las imágenes de las fichas que sí tienen fotografía:
-
-- `Vista de la albufera y sus orillas`
-- `Atardecer sobre la playa de Reta`
-- `Médanos costeros con vegetación natural`
-
-Los placeholders decorativos muestran `Imagen pendiente`.
+- [Desembocadura del Río Quequén Salado](../ambientes/desembocadura-del-quequen.md) → `ambiente-rio-desembocadura.html`
+- [Cueva del Tigre](../ambientes/cueva-del-tigre.md) → `ambiente-rio-cueva-del-tigre.html`
+- [Cascada Cifuentes](../ambientes/cascada-cifuentes.md) → `ambiente-rio-cascada-cifuentes.html`

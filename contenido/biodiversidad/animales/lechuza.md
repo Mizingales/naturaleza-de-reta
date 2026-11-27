@@ -5,7 +5,14 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 ## Tarjeta
 
 - Nombre: `Lechuza`
-- Imagen: `img/lechuza.jpg` (la imagen usa `alt=""` en la tarjeta).
+- Imagen: `img/lechuza.jpg`
+- Texto alternativo en el catálogo: `Lechuza entre pastos naturales`
+
+### Tarjeta aleatoria de Inicio
+
+- Descripción: `Ave rapaz que contribuye al equilibrio de las poblaciones de pequeños animales.`
+- Texto alternativo: `Lechuza entre pastos naturales`
+- Destino: `biodiversidad-animales.html?especie=lechuza`
 
 ## Ficha emergente
 

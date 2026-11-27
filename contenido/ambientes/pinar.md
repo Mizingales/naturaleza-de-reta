@@ -1,12 +1,17 @@
 # Pinar
 
-Fuente: `ambientes.html#pinar`.
+Fuente: `ambiente-pinar.html`.
 
 ## Contenido
 
 - Título: `Pinar`
 - Estado del contenido: `Contenido pendiente de documentación.`
 - Texto provisional: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.`
-- Placeholder de imagen: `Imagen pendiente`
+- Imagen: `img/pinar.jpg`
+- Texto alternativo: `Pinar con luz de sol entre los árboles`
 
-El placeholder de imagen tiene `aria-hidden="true"`.
+## Tarjeta del catálogo
+
+- Texto: `Pronto habrá más información sobre el Pinar de Reta.`
+- Información expandida: `El contenido de esta ficha se ampliará cuando haya datos documentados sobre el lugar.`
+- Destino: `ambiente-pinar.html`

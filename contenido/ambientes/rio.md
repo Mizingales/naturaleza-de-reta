@@ -1,6 +1,6 @@
 # Río
 
-Fuente: `ambientes.html#rio`.
+Fuente: `ambiente-rio.html`.
 
 ## Contenido
 
@@ -8,12 +8,17 @@ Fuente: `ambientes.html#rio`.
 - Estado del contenido: `Contenido pendiente de documentación.`
 - Texto provisional: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.`
 - Texto introductorio de los enlaces: `Explorá destinos relacionados:`
-- Placeholder de imagen: `Imagen pendiente`
+- Imagen: `img/rio.jpg`
+- Texto alternativo: `Cascadas sobre un río entre rocas`
 
-El placeholder de imagen tiene `aria-hidden="true"`.
+## Tarjeta del catálogo
+
+- Texto: `Conocé el Río y sus destinos relacionados.`
+- Información expandida: `Explorá la Desembocadura del Río Quequén Salado, la Cueva del Tigre y la Cascada Cifuentes.`
+- Destino: `ambiente-rio.html`
 
 ## Destinos
 
-- [Desembocadura del Quequén](./desembocadura-del-quequen.md) — ancla `#desembocadura-quequen`
-- [Cueva del Tigre](./cueva-del-tigre.md) — ancla `#cueva-del-tigre`
-- [Cascada Cifuentes](./cascada-cifuentes.md) — ancla `#cascada-cifuentes`
+- [Desembocadura del Río Quequén Salado](./desembocadura-del-quequen.md) — `ambiente-rio-desembocadura.html`
+- [Cueva del Tigre](./cueva-del-tigre.md) — `ambiente-rio-cueva-del-tigre.html`
+- [Cascada Cifuentes](./cascada-cifuentes.md) — `ambiente-rio-cascada-cifuentes.html`
