@@ -47,7 +47,7 @@
   --spacing-hero-top-tablet: 10rem;
   --spacing-input-icon: 3rem;
 
-  /* Layout y componentes */
+  /* Diseño y componentes */
   --page-gutter: var(--spacing-lg);
   --content-max: 1440px;
   --grid-gap: var(--spacing-md);
@@ -175,7 +175,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 .button--outline { color: var(--color-action); background: transparent; border-color: var(--color-action); }
 .button--outline:hover { color: var(--color-background); background: var(--color-action); }
 
-/* Layout macro: la página y sus secciones se componen con Grid */
+/* Diseño general: la página y sus secciones se organizan con Grid */
 .page-layout { display: grid; grid-template-columns: minmax(0, 1fr); }
 .hero {
   position: relative;
@@ -214,7 +214,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 .environment-grid > *, .species-grid > * { grid-column: span 4; }
 .section__action { grid-column: 1 / -1; display: flex; justify-content: end; }
 
-/* Tarjetas y Container Queries */
+/* Tarjetas y consultas de contenedor */
 .card { min-width: 0; container-type: inline-size; border-radius: var(--radius-card); background: transparent; box-shadow: none; transition: background-color var(--transition-standard), box-shadow var(--transition-standard); }
 .card__link { display: block; height: 100%; color: inherit; border-radius: inherit; text-decoration: none; }
 .card__content { display: grid; grid-template-columns: minmax(0, 1fr); height: 100%; overflow: hidden; border-radius: inherit; }
@@ -289,7 +289,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 .form-field { min-width: 0; }
 .input { font: inherit; }
 
-/* Subsections and searchable biodiversity catalogs */
+/* Subsecciones y catálogos consultables de biodiversidad */
 .biodiversity-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--grid-gap); }
 .species-catalog { padding-top: 0; }
 .species-search { display: grid; gap: var(--spacing-xs); width: min(100%, 34rem); margin-bottom: var(--spacing-lg); }
@@ -307,7 +307,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 .species-card__name { font-size: var(--font-size-small); font-weight: 600; }
 .species-catalog__empty { padding: var(--spacing-md); background: var(--color-card); border-radius: var(--radius-card); }
 
-/* Species modal */
+/* Ventana modal de especies */
 .species-dialog {
   position: fixed;
   inset: 0;
@@ -472,7 +472,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
   .project__actions .button--primary:hover { background: var(--color-text); }
 }
 
-/* Tablet: 8 columnas */
+/* Tableta: 8 columnas */
 @media (max-width: 900px) {
   :root { --page-gutter: var(--spacing-md); --grid-gap: var(--spacing-sm); }
   .site-header__inner { grid-template-columns: 1fr; gap: var(--spacing-sm); padding-top: var(--spacing-sm); }
@@ -555,7 +555,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
   .project__actions .button--primary:hover { background: var(--color-text); }
 }
 
-/* Mobile: 4 columnas y lectura vertical */
+/* Móvil: 4 columnas y lectura vertical */
 @media (max-width: 600px) {
   :root { --page-gutter: var(--spacing-sm); --grid-gap: var(--spacing-sm); }
   .site-header__inner { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: var(--spacing-sm); padding: var(--spacing-md); }
