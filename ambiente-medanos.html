@@ -11,6 +11,8 @@
   <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="48x48">
   <link rel="stylesheet" href="styles.css">
   <script src="navigation.js" defer></script>
+  <script src="environment-catalog.js" defer></script>
+  <script src="environment-recommendations.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
@@ -26,22 +28,31 @@
     </div>
   </header>
   <main id="contenido-principal" class="subpage">
-    <section class="subpage-hero" aria-labelledby="page-title">
-      <div class="subpage-hero__content">
-        <h1 class="heading subpage-hero__title" id="page-title">Médanos</h1>
-        <p class="text subpage-hero__description">Un resguardo ante los fuertes vientos.</p>
+    <article class="environment-article">
+      <nav class="environment-detail__breadcrumb" aria-label="Ruta de navegación"><ol><li><a class="link" href="ambientes.html">Ambientes</a></li><li aria-current="page">Médanos</li></ol></nav>
+      <h1 class="heading environment-article__title" id="page-title">Médanos</h1>
+      <h2 class="heading environment-article__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p class="text environment-article__lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</p>
+      <figure class="environment-article__hero-media environment-article__figure">
+        <img class="image" src="img/medanos.webp" alt="Médano de arena junto a vegetación costera" loading="lazy">
+        <figcaption class="environment-article__caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+      </figure>
+      <div class="environment-article__body">
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus at neque facilisis consequat.</p>
+        <h2 class="heading environment-article__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</p>
+      </div>
+    </article>
+    <section class="environment-recommendations" data-current-environment="medanos" aria-labelledby="environment-recommendations-title">
+      <h2 class="heading environment-recommendations__title" id="environment-recommendations-title">También te puede interesar</h2>
+      <div class="environment-grid">
+        <article class="card card--environment"><a class="card__link" href="ambiente-albufera.html"><div class="card__content"><img class="image card__image" src="img/albufera.jpg" alt="Vista de la albufera y sus orillas" loading="lazy"><div class="card__body"><h3 class="heading card__title">Albúfera</h3><p class="text card__description">El mar y el río convergen en un ecosistema único.</p><p class="text card__detail">Una laguna próxima a la costa, formada por agua salada y dulce, separada del mar por una lengua de arena de playa, es una rareza natural como hay pocas en el planeta.</p><span class="card__read-more">Leer más</span></div></div></a></article>
+        <article class="card card--environment"><a class="card__link" href="ambiente-playa.html"><div class="card__content"><img class="image card__image" src="img/playa.jpg" alt="Atardecer sobre la playa de Reta" loading="lazy"><div class="card__body"><h3 class="heading card__title">Playa</h3><p class="text card__description">La extensa orilla del océano Atlántico.</p><p class="text card__detail">Un ambiente dinámico donde las mareas, el viento y la arena modelan el paisaje y sostienen distintas formas de vida.</p><span class="card__read-more">Leer más</span></div></div></a></article>
+        <article class="card card--environment"><a class="card__link" href="ambiente-rio.html"><div class="card__content"><img class="image card__image" src="img/rio.jpg" alt="Cascadas sobre un río entre rocas" loading="lazy"><div class="card__body"><h3 class="heading card__title">Río</h3><p class="text card__description">Conocé el Río y sus destinos relacionados.</p><p class="text card__detail">Explorá la Desembocadura del Río Quequén Salado, la Cueva del Tigre y la Cascada Cifuentes.</p><span class="card__read-more">Leer más</span></div></div></a></article>
       </div>
     </section>
-    <div class="environment-detail">
-      <nav class="breadcrumb environment-detail__breadcrumb" aria-label="Ruta de navegación"><ol><li><a class="link" href="ambientes.html">Ambientes</a></li><li aria-current="page">Médanos</li></ol></nav>
-      <article class="environment-detail__panel" aria-labelledby="page-title">
-        <img class="image environment-detail__image" src="img/medanos.webp" alt="Médano de arena junto a vegetación costera" loading="lazy">
-        <div class="environment-detail__content">
-          <p class="text">Sus arenas y plantas adaptadas contribuyen a la dinámica costera y ofrecen refugio a numerosas especies.</p>
-        </div>
-      </article>
-      <div class="environment-detail__action"><a class="button button--outline" href="ambientes.html">Ver todos los ambientes</a></div>
-    </div>
+    <div class="environment-detail__action"><a class="button button--outline" href="ambientes.html">Ver todos los ambientes</a></div>
   </main>
   <footer class="site-footer">
     <div class="site-footer__inner">
