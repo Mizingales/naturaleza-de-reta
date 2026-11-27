@@ -10,7 +10,7 @@ const species = [
   {
     name: "Garza",
     slug: "garza",
-    category: "animales",
+    category: "fauna",
     image: "img/garza.jpg",
     alt: "Garza en un ambiente de humedal",
     description: "Ave asociada a humedales y orillas, donde busca peces y pequeños animales."
@@ -18,7 +18,7 @@ const species = [
   {
     name: "Colibrí",
     slug: "colibri",
-    category: "animales",
+    category: "fauna",
     image: "img/colibri.jpg",
     alt: "Colibrí alimentándose de una flor",
     description: "Pequeña ave que se alimenta principalmente del néctar de las flores."
@@ -26,7 +26,7 @@ const species = [
   {
     name: "Lechuza",
     slug: "lechuza",
-    category: "animales",
+    category: "fauna",
     image: "img/lechuza.jpg",
     alt: "Lechuza entre pastos naturales",
     description: "Ave rapaz que contribuye al equilibrio de las poblaciones de pequeños animales."
@@ -34,7 +34,7 @@ const species = [
   {
     name: "Flamenco",
     slug: "flamenco",
-    category: "animales",
+    category: "fauna",
     image: "img/flamenco.jpg",
     alt: "Flamenco en aguas poco profundas",
     description: "Ave acuática que puede observarse en ambientes costeros y lagunas."
@@ -42,15 +42,15 @@ const species = [
   {
     name: "Tucu-tucu",
     slug: "tucu-tucu",
-    category: "animales",
+    category: "fauna",
     image: "img/tucu-tucu.png",
     alt: "Tucu-tucu entre la vegetación y el suelo arenoso",
     description: "Pequeño mamífero subterráneo adaptado a los suelos arenosos."
   },
   ...Array.from({ length: 6 }, (_, index) => ({
-    name: `Especie vegetal ${index + 1}`,
+    name: `Especie de flora ${index + 1}`,
     slug: `especie-vegetal-${index + 1}`,
-    category: "plantas",
+    category: "flora",
     description: "Descripción general en preparación."
   }))
 ];
@@ -59,6 +59,7 @@ const createSpeciesCard = (item, template) => {
   const card = template.cloneNode(true);
   const link = card.querySelector(".card__link");
   link.href = `biodiversidad-${item.category}.html?especie=${encodeURIComponent(item.slug)}`;
+  card.dataset.searchTerms = item.slug;
 
   const currentImage = card.querySelector(".card__image");
   if (item.image) {

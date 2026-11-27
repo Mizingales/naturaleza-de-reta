@@ -5,7 +5,7 @@ Fuente: `biodiversidad.html`.
 ## Metadatos
 
 - Título del documento: `Biodiversidad | Naturaleza de Reta`
-- Descripción: `Explorá las especies vegetales y animales de Reta.`
+- Descripción: `Explorá la fauna y la flora de Reta.`
 
 ## Encabezado de página
 
@@ -14,18 +14,18 @@ Fuente: `biodiversidad.html`.
 
 ## Accesos
 
-**Plantas**
+**Flora**
 
-- Placeholder de imagen: `Imágenes de plantas pendientes`
-- Descripción: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explorá las fichas y buscá especies vegetales.`
-- Enlace: `Explorá las plantas →`
-- Destino: `biodiversidad-plantas.html`
+- Placeholder de imagen: `Imágenes de flora pendientes`
+- Descripción: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explorá las fichas y buscá especies de flora.`
+- Enlace: `Explorá la flora →`
+- Destino: `biodiversidad-flora.html`
 
-**Animales**
+**Fauna**
 
-- Descripción: `Conocé algunas de las especies animales que habitan los ambientes naturales de Reta.`
-- Enlace: `Explorá los animales →`
-- Destino: `biodiversidad-animales.html`
+- Descripción: `Conocé algunas de las especies de fauna que habitan los ambientes naturales de Reta.`
+- Enlace: `Explorá la fauna →`
+- Destino: `biodiversidad-fauna.html`
 - La imagen usa `alt=""`.
 
 ## Botón final

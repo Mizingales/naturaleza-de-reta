@@ -1,6 +1,6 @@
 # Especie en preparación
 
-Fuente: `biodiversidad-animales.html`, ficha animal.
+Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 
 ## Tarjeta
 
@@ -10,7 +10,7 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 
 ## Ficha emergente
 
-- Tipo: `Animal`
+- Tipo: `En preparación`
 - Hábitat: `Lorem ipsum dolor sit amet.`
 - Comportamiento: `Lorem ipsum dolor sit amet.`
 - Actividad: `Lorem ipsum dolor sit amet.`

@@ -1,6 +1,6 @@
 # Lechuza
 
-Fuente: `biodiversidad-animales.html`, ficha animal.
+Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 
 ## Tarjeta
 
@@ -12,7 +12,7 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 
 - Descripción: `Ave rapaz que contribuye al equilibrio de las poblaciones de pequeños animales.`
 - Texto alternativo: `Lechuza entre pastos naturales`
-- Destino: `biodiversidad-animales.html?especie=lechuza`
+- Destino: `biodiversidad-fauna.html?especie=lechuza`
 
 ## Ficha emergente
 

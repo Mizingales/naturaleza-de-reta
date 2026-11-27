@@ -1,15 +1,15 @@
-# Especie vegetal 1
+# Especie de flora 6
 
-Fuente: `biodiversidad-plantas.html`, ficha vegetal.
+Fuente: `biodiversidad-flora.html`, ficha de flora.
 
 ## Tarjeta
 
-- Nombre: `Especie vegetal 1`
+- Nombre: `Especie de flora 6`
 - Imagen: placeholder `Imagen pendiente` (elemento con `aria-hidden="true"`).
 
 ## Ficha emergente
 
-- Tipo: `Planta`
+- Tipo: `Flora`
 - Hábitat: `Lorem ipsum dolor sit amet.`
 - Comportamiento: `Lorem ipsum dolor sit amet.`
 - Actividad: `Lorem ipsum dolor sit amet.`

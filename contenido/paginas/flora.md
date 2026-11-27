@@ -1,21 +1,21 @@
-# Animales
+# Flora
 
-Fuente: `biodiversidad-animales.html`.
+Fuente: `biodiversidad-flora.html`.
 
 ## Metadatos
 
-- Título del documento: `Animales | Biodiversidad | Naturaleza de Reta`
-- Descripción: `Buscá y explorá fichas de animales de los ambientes naturales de Reta.`
+- Título del documento: `Flora | Biodiversidad | Naturaleza de Reta`
+- Descripción: `Buscá y explorá fichas de flora de los ambientes naturales de Reta.`
 
 ## Encabezado de página
 
-- Migas de pan: `Biodiversidad / Animales`
-- Título: `Animales`
+- Migas de pan: `Biodiversidad / Flora`
+- Título: `Flora`
 - Bajada: `Buscá una especie o seleccioná una ficha para conocer más.`
 
 ## Buscador
 
-- Etiqueta: `Buscar animales`
+- Etiqueta: `Buscar en flora`
 - Placeholder: `Buscar por nombre`
 - Estado inicial: `Se muestran 6 fichas.`
 - Estado para un resultado: `Se muestra 1 ficha.`
@@ -26,12 +26,12 @@ Fuente: `biodiversidad-animales.html`.
 
 Orden de aparición en el HTML:
 
-1. [Colibrí](../biodiversidad/animales/colibri.md)
-2. [Especie en preparación](../biodiversidad/animales/especie-en-preparacion.md)
-3. [Flamenco](../biodiversidad/animales/flamenco.md)
-4. [Garza](../biodiversidad/animales/garza.md)
-5. [Lechuza](../biodiversidad/animales/lechuza.md)
-6. [Tucu-tucu](../biodiversidad/animales/tucu-tucu.md)
+1. [Especie de flora 1](../biodiversidad/flora/especie-vegetal-1.md)
+2. [Especie de flora 2](../biodiversidad/flora/especie-vegetal-2.md)
+3. [Especie de flora 3](../biodiversidad/flora/especie-vegetal-3.md)
+4. [Especie de flora 4](../biodiversidad/flora/especie-vegetal-4.md)
+5. [Especie de flora 5](../biodiversidad/flora/especie-vegetal-5.md)
+6. [Especie de flora 6](../biodiversidad/flora/especie-vegetal-6.md)
 
 ## Botón final
 

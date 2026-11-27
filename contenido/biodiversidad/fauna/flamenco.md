@@ -1,6 +1,6 @@
 # Flamenco
 
-Fuente: `biodiversidad-animales.html`, ficha animal.
+Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 
 ## Tarjeta
 
@@ -12,7 +12,7 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 
 - Descripción: `Ave acuática que puede observarse en ambientes costeros y lagunas.`
 - Texto alternativo: `Flamenco en aguas poco profundas`
-- Destino: `biodiversidad-animales.html?especie=flamenco`
+- Destino: `biodiversidad-fauna.html?especie=flamenco`
 
 ## Ficha emergente
 

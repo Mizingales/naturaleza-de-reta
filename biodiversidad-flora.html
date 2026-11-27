@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Buscá y explorá fichas de animales de los ambientes naturales de Reta.">
-  <title>Animales | Biodiversidad | Naturaleza de Reta</title>
+  <meta name="description" content="Buscá y explorá fichas de flora de los ambientes naturales de Reta.">
+  <title>Flora | Biodiversidad | Naturaleza de Reta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
   <script src="navigation.js" defer></script>
   <script src="biodiversidad.js" defer></script>
 </head>
-<body data-catalog="animal">
+<body data-catalog="flora">
   <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
   <header class="site-header site-header--inner">
     <div class="site-header__inner">
@@ -39,112 +39,112 @@
   <main id="contenido-principal" class="subpage">
     <section class="subpage-hero" aria-labelledby="page-title">
       <div class="subpage-hero__content">
-        <nav class="breadcrumb" aria-label="Ruta de navegación"><a class="link" href="biodiversidad.html">Biodiversidad</a> / Animales</nav>
-        <h1 class="heading subpage-hero__title" id="page-title">Animales</h1>
+        <nav class="breadcrumb" aria-label="Ruta de navegación"><a class="link" href="biodiversidad.html">Biodiversidad</a> / Flora</nav>
+        <h1 class="heading subpage-hero__title" id="page-title">Flora</h1>
         <p class="text subpage-hero__description">Buscá una especie o seleccioná una ficha para conocer más.</p>
       </div>
     </section>
 
     <section class="subpage-content species-catalog" aria-labelledby="page-title">
       <form class="form-field species-search" role="search">
-        <label class="species-search__label" for="species-search">Buscar animales</label>
+        <label class="species-search__label" for="species-search">Buscar en flora</label>
         <input class="input species-search__input" id="species-search" type="search" name="especie" placeholder="Buscar por nombre" autocomplete="off">
         <p class="text species-search__status" id="search-status" aria-live="polite">Se muestran 6 fichas.</p>
       </form>
 
       <div class="species-catalog__grid" id="species-grid">
-        <button class="card card--species species-card" type="button" data-species-card data-name="Colibrí" data-type="Ave" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Pequeña ave que se alimenta principalmente del néctar de las flores. Lorem ipsum dolor sit amet, consectetur adipiscing elit." data-tips="No hacer ruidos fuertes|Mantener distancia" aria-haspopup="dialog" aria-controls="species-dialog">
-  <span class="card__content">
-    <span class="card__image species-card__image"><img class="image" src="img/colibri.jpg" alt="Colibrí alimentándose de una flor roja en vuelo" loading="lazy"></span>
-    <span class="card__body">
-      <span class="heading card__title species-card__name">Colibrí</span>
-      <span class="card__detail species-card__details">
-        <span><strong>Tipo:</strong> Ave</span>
-        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Descripción:</strong> Pequeña ave que se alimenta principalmente del néctar de las flores. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-        <span><strong>Cuidados y observación:</strong> No hacer ruidos fuertes; Mantener distancia.</span>
-      </span>
-    </span>
-  </span>
-</button>
-        <button class="card card--species species-card" type="button" data-species-card data-name="Especie en preparación" data-search-terms="especie-pendiente" data-type="Animal" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta ficha está preparada para incorporar una nueva especie." data-tips="No hacer ruidos fuertes|Mantener distancia" aria-haspopup="dialog" aria-controls="species-dialog">
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie de flora 1" data-search-terms="especie-vegetal-1" data-type="Flora" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
   <span class="card__content">
     <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
     <span class="card__body">
-      <span class="heading card__title species-card__name">Especie en preparación</span>
+      <span class="heading card__title species-card__name">Especie de flora 1</span>
       <span class="card__detail species-card__details">
-        <span><strong>Tipo:</strong> Animal</span>
+        <span><strong>Tipo:</strong> Flora</span>
         <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
         <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
         <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta ficha está preparada para incorporar una nueva especie.</span>
-        <span><strong>Cuidados y observación:</strong> No hacer ruidos fuertes; Mantener distancia.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
       </span>
     </span>
   </span>
 </button>
-        <button class="card card--species species-card" type="button" data-species-card data-name="Flamenco" data-type="Ave" data-habitat="Ambientes costeros y lagunas." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Ave acuática que puede observarse en ambientes costeros y lagunas. Lorem ipsum dolor sit amet, consectetur adipiscing elit." data-tips="No hacer ruidos fuertes|Mantener distancia" aria-haspopup="dialog" aria-controls="species-dialog">
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie de flora 2" data-search-terms="especie-vegetal-2" data-type="Flora" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
   <span class="card__content">
-    <span class="card__image species-card__image"><img class="image" src="img/flamenco.jpg" alt="Flamenco caminando con las alas desplegadas en aguas poco profundas" loading="lazy"></span>
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
     <span class="card__body">
-      <span class="heading card__title species-card__name">Flamenco</span>
+      <span class="heading card__title species-card__name">Especie de flora 2</span>
       <span class="card__detail species-card__details">
-        <span><strong>Tipo:</strong> Ave</span>
-        <span><strong>Hábitat:</strong> Ambientes costeros y lagunas.</span>
-        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Descripción:</strong> Ave acuática que puede observarse en ambientes costeros y lagunas. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-        <span><strong>Cuidados y observación:</strong> No hacer ruidos fuertes; Mantener distancia.</span>
-      </span>
-    </span>
-  </span>
-</button>
-        <button class="card card--species species-card" type="button" data-species-card data-name="Garza" data-type="Ave" data-habitat="Humedales y orillas." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Ave asociada a humedales y orillas, donde busca peces y pequeños animales. Lorem ipsum dolor sit amet, consectetur adipiscing elit." data-tips="No hacer ruidos fuertes|Mantener distancia" aria-haspopup="dialog" aria-controls="species-dialog">
-  <span class="card__content">
-    <span class="card__image species-card__image"><img class="image" src="img/garza.jpg" alt="Garza blanca de pie en agua calma" loading="lazy"></span>
-    <span class="card__body">
-      <span class="heading card__title species-card__name">Garza</span>
-      <span class="card__detail species-card__details">
-        <span><strong>Tipo:</strong> Ave</span>
-        <span><strong>Hábitat:</strong> Humedales y orillas.</span>
-        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Descripción:</strong> Ave asociada a humedales y orillas, donde busca peces y pequeños animales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-        <span><strong>Cuidados y observación:</strong> No hacer ruidos fuertes; Mantener distancia.</span>
-      </span>
-    </span>
-  </span>
-</button>
-        <button class="card card--species species-card" type="button" data-species-card data-name="Lechuza" data-type="Ave" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Ave rapaz que contribuye al equilibrio de las poblaciones de pequeños animales. Lorem ipsum dolor sit amet, consectetur adipiscing elit." data-tips="No hacer ruidos fuertes|Mantener distancia" aria-haspopup="dialog" aria-controls="species-dialog">
-  <span class="card__content">
-    <span class="card__image species-card__image"><img class="image" src="img/lechuza.jpg" alt="Lechuza entre pastos naturales" loading="lazy"></span>
-    <span class="card__body">
-      <span class="heading card__title species-card__name">Lechuza</span>
-      <span class="card__detail species-card__details">
-        <span><strong>Tipo:</strong> Ave</span>
+        <span><strong>Tipo:</strong> Flora</span>
         <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
         <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
         <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Descripción:</strong> Ave rapaz que contribuye al equilibrio de las poblaciones de pequeños animales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-        <span><strong>Cuidados y observación:</strong> No hacer ruidos fuertes; Mantener distancia.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
       </span>
     </span>
   </span>
 </button>
-        <button class="card card--species species-card" type="button" data-species-card data-name="Tucu-tucu" data-type="Mamífero" data-habitat="Suelos arenosos." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Pequeño mamífero subterráneo adaptado a los suelos arenosos. Lorem ipsum dolor sit amet, consectetur adipiscing elit." data-tips="No hacer ruidos fuertes|Mantener distancia" aria-haspopup="dialog" aria-controls="species-dialog">
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie de flora 3" data-search-terms="especie-vegetal-3" data-type="Flora" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
   <span class="card__content">
-    <span class="card__image species-card__image"><img class="image" src="img/tucu-tucu.png" alt="Tucu-tucu asomándose desde un montículo de tierra" loading="lazy"></span>
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
     <span class="card__body">
-      <span class="heading card__title species-card__name">Tucu-tucu</span>
+      <span class="heading card__title species-card__name">Especie de flora 3</span>
       <span class="card__detail species-card__details">
-        <span><strong>Tipo:</strong> Mamífero</span>
-        <span><strong>Hábitat:</strong> Suelos arenosos.</span>
+        <span><strong>Tipo:</strong> Flora</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
         <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
         <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
-        <span><strong>Descripción:</strong> Pequeño mamífero subterráneo adaptado a los suelos arenosos. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-        <span><strong>Cuidados y observación:</strong> No hacer ruidos fuertes; Mantener distancia.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie de flora 4" data-search-terms="especie-vegetal-4" data-type="Flora" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie de flora 4</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Flora</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie de flora 5" data-search-terms="especie-vegetal-5" data-type="Flora" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie de flora 5</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Flora</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
+      </span>
+    </span>
+  </span>
+</button>
+        <button class="card card--species species-card" type="button" data-species-card data-name="Especie de flora 6" data-search-terms="especie-vegetal-6" data-type="Flora" data-habitat="Lorem ipsum dolor sit amet." data-behavior="Lorem ipsum dolor sit amet." data-activity="Lorem ipsum dolor sit amet." data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat." data-tips="No arrancar ni dañar ejemplares|Observar sin alterar el entorno" aria-haspopup="dialog" aria-controls="species-dialog">
+  <span class="card__content">
+    <span class="card__image species-card__image species-card__image--placeholder" aria-hidden="true">Imagen pendiente</span>
+    <span class="card__body">
+      <span class="heading card__title species-card__name">Especie de flora 6</span>
+      <span class="card__detail species-card__details">
+        <span><strong>Tipo:</strong> Flora</span>
+        <span><strong>Hábitat:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Comportamiento:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Actividad:</strong> Lorem ipsum dolor sit amet.</span>
+        <span><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae lectus at neque facilisis consequat.</span>
+        <span><strong>Cuidados y observación:</strong> No arrancar ni dañar ejemplares; Observar sin alterar el entorno.</span>
       </span>
     </span>
   </span>
@@ -157,7 +157,7 @@
     </section>
   </main>
 
-  <dialog class="species-dialog species-dialog--animal" id="species-dialog" aria-labelledby="species-dialog-title" aria-describedby="species-dialog-description">
+  <dialog class="species-dialog species-dialog--flora" id="species-dialog" aria-labelledby="species-dialog-title" aria-describedby="species-dialog-description">
     <article class="species-dialog__panel">
       <button class="species-dialog__close" type="button" aria-label="Cerrar ficha">×</button>
       <div class="species-dialog__top">

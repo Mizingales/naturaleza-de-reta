@@ -37,11 +37,11 @@ La navegación principal debe permitir acceder a estas seis secciones. Las pági
 
 - **BIODIVERSIDAD**
   - Página general de presentación de la biodiversidad de Reta.
-  - **Plantas:** subsección que presenta las especies vegetales.
-    - Incluye un buscador de plantas.
+  - **Flora:** subsección que presenta las especies de flora.
+    - Incluye un buscador de flora.
     - Incluye fichas individuales de las especies.
-  - **Animales:** subsección que presenta las especies animales.
-    - Incluye un buscador de animales.
+  - **Fauna:** subsección que presenta las especies de fauna.
+    - Incluye un buscador de fauna.
     - Incluye fichas individuales de las especies.
 
 - **CONSERVACIÓN**
@@ -67,8 +67,8 @@ Los destacados de la landing deben enlazar directamente con el contenido especí
 Ejemplos:
 
 - Botón del hero → Ambientes → Albufera.
-- Tarjeta de la garza → Biodiversidad → Animales → buscador precargado con «Garza» → resultado correspondiente → ficha de la garza.
-- Tarjeta de una planta → Biodiversidad → Plantas → buscador precargado con el nombre de la especie → resultado correspondiente → ficha de la planta.
+- Tarjeta de la garza → Biodiversidad → Fauna → buscador precargado con «Garza» → resultado correspondiente → ficha de la garza.
+- Tarjeta de una especie de flora → Biodiversidad → Flora → buscador precargado con el nombre de la especie → resultado correspondiente → ficha correspondiente.
 - Destacado de conservación → Conservación.
 - Destacado de la iniciativa → El proyecto.
 - Llamada a la participación → Sumate.
@@ -79,17 +79,17 @@ Estos ejemplos representan las relaciones esperadas entre los contenidos. Antes 
 
 Los accesos directos desde las tarjetas de especies de Inicio deben permitir identificar la especie seleccionada y mostrarla como resultado en el buscador correspondiente.
 
-**Acceso desde una tarjeta de animal:**
-1. El usuario selecciona una tarjeta de animal en Inicio.
-2. Se abre la subsección Biodiversidad → Animales.
-3. El buscador aparece precargado con el nombre del animal seleccionado.
+**Acceso desde una tarjeta de fauna:**
+1. El usuario selecciona una tarjeta de fauna en Inicio.
+2. Se abre la subsección Biodiversidad → Fauna.
+3. El buscador aparece precargado con el nombre de la especie seleccionada.
 4. Se muestra el resultado correspondiente a esa especie.
 5. El usuario puede acceder a su ficha individual.
 
-**Acceso desde una tarjeta de planta:**
-1. El usuario selecciona una tarjeta de planta en Inicio.
-2. Se abre la subsección Biodiversidad → Plantas.
-3. El buscador aparece precargado con el nombre de la planta seleccionada.
+**Acceso desde una tarjeta de flora:**
+1. El usuario selecciona una tarjeta de flora en Inicio.
+2. Se abre la subsección Biodiversidad → Flora.
+3. El buscador aparece precargado con el nombre de la especie seleccionada.
 4. Se muestra el resultado correspondiente a esa especie.
 5. El usuario puede acceder a su ficha individual.
 
@@ -110,7 +110,7 @@ Los accesos directos desde las tarjetas de especies de Inicio deben permitir ide
 - No confundir los accesos directos desde Inicio con la jerarquía principal del sitio.
 - Mantener Playa y Mar como contenidos separados.
 - Mantener los tres destinos —Desembocadura del Río Quequén Salado, Cueva del Tigre y Cascada Cifuentes— dentro de la estructura de Río.
-- Mantener Plantas y Animales como subsecciones de Biodiversidad, con sus respectivos buscadores y fichas individuales.
+- Mantener Flora y Fauna como subsecciones de Biodiversidad, con sus respectivos buscadores y fichas individuales.
 - Antes de crear una página o modificar un enlace, inspeccionar la estructura HTML, CSS y JavaScript relacionada y comprobar si el contenido ya está implementado.
 - No inventar rutas, archivos, especies, contenidos ni funcionalidades.
 - Adaptar las rutas técnicas a la arquitectura real del proyecto. No asumir que cada contenido corresponde a un archivo HTML independiente.

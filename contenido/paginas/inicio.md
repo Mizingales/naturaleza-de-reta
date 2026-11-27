@@ -57,4 +57,4 @@ Fuente: `index.html`.
 
 Los textos de las tarjetas de Ambientes y Biodiversidad seleccionadas al azar se documentan junto a [las fichas de ambientes](../ambientes/) y [las fichas de biodiversidad](../biodiversidad/). No se repiten aquí sus textos ni textos alternativos. `home.js` mantiene los datos usados para la selección y el HTML conserva tarjetas estáticas como respaldo; los Markdown no se cargan automáticamente.
 
-Criterio editorial: excluir las fichas-placeholder de la selección. Actualmente `home.js` todavía incluye las seis fichas-placeholder de plantas; el script no se modifica en esta actualización.
+Criterio editorial: excluir las fichas-placeholder de la selección. Actualmente `home.js` todavía incluye las seis fichas-placeholder de flora; el script no se modifica en esta actualización.

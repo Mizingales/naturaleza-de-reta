@@ -334,8 +334,8 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 }
 .species-dialog[open] { display: grid; }
 .species-dialog::backdrop { background: var(--color-dialog-backdrop); }
-.species-dialog--animal { --modal-accent: var(--color-accent); }
-.species-dialog--plant { --modal-accent: var(--color-action); }
+.species-dialog--fauna { --modal-accent: var(--color-accent); }
+.species-dialog--flora { --modal-accent: var(--color-action); }
 .species-dialog__panel { position: relative; width: min(100%, 60rem); max-height: calc(100vh - 3rem); overflow: auto; padding: var(--spacing-xl); border-radius: 1.25rem; background: var(--color-card); box-shadow: var(--shadow-dialog); }
 .species-dialog__panel::before { position: absolute; top: 5rem; left: -3rem; width: 6rem; aspect-ratio: 1; border-radius: 50%; background: var(--modal-accent); content: ""; }
 .species-dialog__close { position: absolute; z-index: 1; top: var(--spacing-sm); right: var(--spacing-sm); display: grid; place-items: center; width: 2.5rem; aspect-ratio: 1; border: 0; border-radius: 50%; color: var(--color-text); background: var(--color-background); font: inherit; font-size: var(--font-size-dialog-close); line-height: 1; cursor: pointer; }

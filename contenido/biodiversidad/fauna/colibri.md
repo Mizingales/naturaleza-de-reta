@@ -1,6 +1,6 @@
 # Colibrí
 
-Fuente: `biodiversidad-animales.html`, ficha animal.
+Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 
 ## Tarjeta
 
@@ -12,7 +12,7 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 
 - Descripción: `Pequeña ave que se alimenta principalmente del néctar de las flores.`
 - Texto alternativo: `Colibrí alimentándose de una flor`
-- Destino: `biodiversidad-animales.html?especie=colibri`
+- Destino: `biodiversidad-fauna.html?especie=colibri`
 
 ## Ficha emergente
 

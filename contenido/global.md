@@ -42,7 +42,7 @@ Los logos del pie y las imágenes de redes sociales usan `alt=""`; sus enlaces t
 
 ## Texto funcional de las fichas emergentes
 
-Compartido por los catálogos de Plantas y Animales:
+Compartido por los catálogos de Flora y Fauna:
 
 - Nombre accesible del botón de cierre: `Cerrar ficha`
 - Símbolo visible del botón de cierre: `×`

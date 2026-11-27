@@ -1,6 +1,6 @@
 # Garza
 
-Fuente: `biodiversidad-animales.html`, ficha animal.
+Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 
 ## Tarjeta
 
@@ -12,7 +12,7 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 
 - Descripción: `Ave asociada a humedales y orillas, donde busca peces y pequeños animales.`
 - Texto alternativo: `Garza en un ambiente de humedal`
-- Destino: `biodiversidad-animales.html?especie=garza`
+- Destino: `biodiversidad-fauna.html?especie=garza`
 
 ## Ficha emergente
 

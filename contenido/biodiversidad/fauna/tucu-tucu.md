@@ -1,6 +1,6 @@
 # Tucu-tucu
 
-Fuente: `biodiversidad-animales.html`, ficha animal.
+Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 
 ## Tarjeta
 
@@ -12,7 +12,7 @@ Fuente: `biodiversidad-animales.html`, ficha animal.
 
 - Descripción: `Pequeño mamífero subterráneo adaptado a los suelos arenosos.`
 - Texto alternativo: `Tucu-tucu entre la vegetación y el suelo arenoso`
-- Destino: `biodiversidad-animales.html?especie=tucu-tucu`
+- Destino: `biodiversidad-fauna.html?especie=tucu-tucu`
 
 ## Ficha emergente
 
