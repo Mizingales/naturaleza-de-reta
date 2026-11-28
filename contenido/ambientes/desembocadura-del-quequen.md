@@ -6,11 +6,11 @@ Fuente: `ambiente-rio-desembocadura.html`.
 
 - Título: `Desembocadura del río Quequén Salado`
 - Bajada: `La Boca, donde el río Quequén Salado encuentra el mar.`
-- Descripción: `A unos 15 kilómetros de Reta, en dirección al balneario Marisol, el río Quequén Salado desemboca en el mar Argentino en un sector conocido como La Boca. El encuentro entre el curso de agua y la costa forma un paisaje natural que se distingue por la amplitud del horizonte y la presencia del río junto a la playa. Aunque se encuentra fuera del área urbana de Reta, es uno de los atractivos naturales de la región que pueden conocer quienes visitan la localidad.`
-- Imagen: `PENDIENTE: definir la ruta de la fotografía disponible.`
+- Descripción: `A unos 15 kilómetros de Reta, en dirección al balneario Marisol, el río Quequén Salado desemboca en el mar Argentino en un sector conocido como La Boca, formando un paisaje amplio y cambiante donde conviven el curso fluvial y la playa.`
+- Imagen: `img/rio-desembocadura.png`
 - Texto alternativo: `Desembocadura del río Quequén Salado en el mar, en el paraje conocido como La Boca`
 
-El enlace de la tarjeta se rotula `Desembocadura del río Quequén Salado` y lleva a `ambiente-rio-desembocadura.html`.
+La página se enlaza desde Río y vuelve a `ambiente-rio.html`.
 
 ## Cuerpo del artículo
 
@@ -24,7 +24,7 @@ El río Quequén Salado recorre parte del sur bonaerense hasta desembocar en el 
 
 ### Imagen principal
 
-- Ruta: `PENDIENTE: definir la ruta de la fotografía disponible.`
+- Ruta: `img/rio-desembocadura.png`
 - Texto alternativo: `Vista de La Boca, donde las aguas del río Quequén Salado desembocan en el mar`
 - Epígrafe: `La Boca es el nombre local del sector donde el río Quequén Salado desemboca en el mar Argentino.`
 
@@ -42,9 +42,11 @@ Un paisaje compartido que merece protección
 
 ### Enlace de interés
 
-- Texto del enlace: `Consultá la información turística oficial del río Quequén Salado`
+- Texto del enlace: `Consultá la información turística oficial de la provincia de Buenos Aires`
 - Destino: `https://buenosaires.tur.ar/info/tourist-information/search?q=Playas`
 
 ### Fecha de actualización
 
 - Actualizado el 27/11/2026
+
+Se pueden intercalar imágenes adicionales a una columna. El cierre «También te puede interesar» reutiliza tarjetas del catálogo de ambientes.

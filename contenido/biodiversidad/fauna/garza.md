@@ -5,7 +5,7 @@ Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 ## Tarjeta
 
 - Nombre: `Garza`
-- Imagen: `img/garza.jpg`
+- Imagen: `img/garza.png`
 - Texto alternativo en el catálogo: `Garza blanca de pie en agua calma`
 
 ### Tarjeta aleatoria de Inicio

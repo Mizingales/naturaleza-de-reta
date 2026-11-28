@@ -259,7 +259,7 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 .environment-search__icon { position: absolute; top: 50%; right: var(--spacing-sm); width: 1.25rem; height: 1.25rem; transform: translateY(-50%); fill: none; stroke: var(--color-action); stroke-linecap: round; stroke-width: 2; pointer-events: none; }
 .environment-catalog { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-lg) var(--grid-gap); }
 .environment-catalog__empty { margin-bottom: var(--spacing-lg); padding: var(--spacing-md); background: var(--color-card); border-radius: var(--radius-card); }
-.environment-article { display: grid; gap: var(--spacing-md); width: min(100%, var(--article-max)); margin-inline: auto; padding: var(--spacing-xl) var(--page-gutter) 0; }
+.environment-article { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--spacing-md); width: min(100%, var(--article-max)); margin-inline: auto; padding: var(--spacing-xl) var(--page-gutter) 0; }
 .environment-detail__breadcrumb { margin-bottom: 0; font-family: var(--font-body); font-size: var(--font-size-small); }
 .environment-detail__breadcrumb ol { display: flex; flex-wrap: wrap; gap: var(--spacing-xs); margin: 0; padding: 0; list-style: none; }
 .environment-detail__breadcrumb li + li::before { margin-right: var(--spacing-xs); color: var(--color-secondary); content: "/"; }
@@ -272,6 +272,8 @@ a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 4px; }
 .environment-article__placeholder { display: grid; place-items: center; color: var(--color-text); background: var(--color-secondary); }
 .environment-article__caption { font-family: var(--font-body); font-size: var(--font-size-small); line-height: 1.5; }
 .environment-article__body { display: grid; gap: var(--spacing-md); }
+.environment-article__interest a { color: var(--color-action); text-decoration: underline; }
+.environment-article__updated { font-size: var(--font-size-small); text-align: right; }
 .environment-detail__destinations { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--grid-gap); width: min(100%, var(--article-max)); margin-inline: auto; padding: var(--spacing-lg) var(--page-gutter) 0; border-top: 1px solid var(--color-secondary); }
 .environment-detail__destinations > .heading { grid-column: 1 / -1; }
 .environment-destination { display: grid; align-content: start; gap: var(--spacing-sm); padding: var(--spacing-sm); color: inherit; background: var(--color-card); border-radius: var(--radius-card); text-decoration: none; }

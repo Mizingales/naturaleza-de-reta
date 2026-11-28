@@ -5,7 +5,7 @@ Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 ## Tarjeta
 
 - Nombre: `Lechuza`
-- Imagen: `img/lechuza.jpg`
+- Imagen: `img/lechuza.png`
 - Texto alternativo en el catálogo: `Lechuza entre pastos naturales`
 
 ### Tarjeta aleatoria de Inicio

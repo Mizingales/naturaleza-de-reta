@@ -4,7 +4,7 @@ window.naturalezaDeReta = {
       slug: "albufera",
       title: "Albúfera",
       href: "ambiente-albufera.html",
-      image: "img/albufera.jpg",
+      image: "img/albufera.png",
       alt: "Vista de la albufera y sus orillas",
       description: "El mar y el río convergen en un ecosistema único.",
       detail: "Una laguna próxima a la costa, formada por agua salada y dulce, separada del mar por una lengua de arena de playa, es una rareza natural como hay pocas en el planeta."
@@ -13,52 +13,52 @@ window.naturalezaDeReta = {
       slug: "caracolero",
       title: "Caracolero",
       href: "ambiente-caracolero.html",
-      image: "img/caracolero.webp",
-      alt: "Costa de piedras del Caracolero",
-      description: "Conocé el Caracolero de Reta.",
-      detail: "Esta ficha incorporará información documentada del Caracolero."
+      image: "img/caracolero.png",
+      alt: "Acumulación natural de caracoles y valvas sobre la orilla del Caracolero",
+      description: "Afloramientos rocosos donde el mar acumula millones de valvas y conchillas.",
+      detail: "Un tramo costero singular entre Reta y Claromecó, modelado por las mareas y las sudestadas, que reúne bancos naturales de caracoles marinos y valiosos registros geológicos y paleontológicos."
     },
     {
       slug: "mar",
       title: "Mar",
       href: "ambiente-mar.html",
-      image: "img/mar.webp",
+      image: "img/mar.png",
       alt: "Olas del mar en la costa de Reta",
-      description: "El ambiente marino de Reta.",
-      detail: "La descripción de este ambiente se completará con información documentada sobre el mar de Reta."
+      description: "Las aguas templado-frías del mar Argentino frente a la costa de Reta.",
+      detail: "Un ecosistema marino abierto y productivo, moldeado por corrientes oceánicas, mareas y vientos, que sostiene una rica cadena trófica de peces, moluscos, aves y mamíferos marinos."
     },
     {
       slug: "medanos",
       title: "Médanos",
       href: "ambiente-medanos.html",
-      image: "img/medanos.webp",
+      image: "img/medanos.png",
       alt: "Médanos costeros con vegetación natural",
       description: "Un resguardo ante los fuertes vientos.",
-      detail: "Sus arenas y plantas adaptadas contribuyen a la dinámica costera y ofrecen refugio a numerosas especies."
+      detail: "Cúmulos de arena inmensos, sostenidos por los tamariscos, donde especies vegetales adaptadas contribuyen a la dinámica costera y ofrecen refugio."
     },
     {
       slug: "pastizal",
       title: "Pastizal",
       href: "ambiente-pastizal.html",
-      image: "img/pastizal.jpg",
+      image: "img/pastizal.png",
       alt: "Pastizal natural abierto",
-      description: "Descripción del Pastizal en preparación.",
-      detail: "En esta ficha se reunirán datos documentados para describir el Pastizal."
+      description: "La llanura nativa de hierbas y gramíneas que sostiene la biodiversidad pampeana.",
+      detail: "Un ecosistema abierto de pastos autóctonos, arbustos bajos y horizontes amplios que conecta el interior rural con la costa y alberga aves, mamíferos e insectos clave."
     },
     {
       slug: "pinar",
       title: "Pinar",
       href: "ambiente-pinar.html",
-      image: "img/pinar.jpg",
+      image: "img/pinar.png",
       alt: "Pinar con luz de sol entre los árboles",
-      description: "Pronto habrá más información sobre el Pinar de Reta.",
-      detail: "El contenido de esta ficha se ampliará cuando haya datos documentados sobre el lugar."
+      description: "Bosques implantados que brindan sombra, reparo del viento y refugio urbano.",
+      detail: "Un ambiente forestado surgido históricamente para fijar los médanos y proteger la localidad, que hoy conforma uno de los paisajes más reconocibles y sombreados de Reta."
     },
     {
       slug: "playa",
       title: "Playa",
       href: "ambiente-playa.html",
-      image: "img/playa.jpg",
+      image: "img/playa.png",
       alt: "Atardecer sobre la playa de Reta",
       description: "La extensa orilla del océano Atlántico.",
       detail: "Un ambiente dinámico donde las mareas, el viento y la arena modelan el paisaje y sostienen distintas formas de vida."
@@ -67,10 +67,10 @@ window.naturalezaDeReta = {
       slug: "rio",
       title: "Río",
       href: "ambiente-rio.html",
-      image: "img/rio.jpg",
+      image: "img/rio.png",
       alt: "Cascadas sobre un río entre rocas",
-      description: "Conocé el Río y sus destinos relacionados.",
-      detail: "Explorá la Desembocadura del Río Quequén Salado, la Cueva del Tigre y la Cascada Cifuentes."
+      description: "Cursos de agua que articulan la cuenca, el paisaje y la conexión con el mar.",
+      detail: "El río Quequén Salado, los cursos vinculados al entorno de la albufera y otros arroyos y ríos de la región modelan barrancas, montes y humedales clave para la biodiversidad del sur bonaerense."
     }
   ],
   pickRandom(items, count) {

@@ -30,7 +30,7 @@ Fuente: `index.html`.
 - Texto: `Los ambientes naturales de Reta albergan una gran diversidad de especies y cumplen un papel fundamental en el equilibrio del ecosistema. Conocer su valor es el primer paso para reconocer las amenazas que enfrentan y promover su cuidado.`
 - Enlace: `Profundizá en los desafíos de conservación →`
 - Destino: `conservacion.html`
-- Imagen: `img/cartel-area-protegida.jpg`
+- Imagen: `img/cartel-area-protegida.png`
 - Texto alternativo: `Fauna silvestre en su ambiente natural`
 
 ## Biodiversidad
@@ -50,11 +50,11 @@ Fuente: `index.html`.
 - Destino: `proyecto.html`
 - Botón: `Sumate al equipo`
 - Destino: `sumate.html`
-- Imagen: `img/recolectores.webp`
+- Imagen: `img/recolectores.png`
 - Texto alternativo: `Personas colaborando en el cuidado de la playa`
 
 ## Tarjetas aleatorias
 
 Los textos de las tarjetas de Ambientes y Biodiversidad seleccionadas al azar se documentan junto a [las fichas de ambientes](../ambientes/) y [las fichas de biodiversidad](../biodiversidad/). No se repiten aquí sus textos ni textos alternativos. `home.js` mantiene los datos usados para la selección y el HTML conserva tarjetas estáticas como respaldo; los Markdown no se cargan automáticamente.
 
-Criterio editorial: excluir las fichas-placeholder de la selección. Actualmente `home.js` todavía incluye las seis fichas-placeholder de flora; el script no se modifica en esta actualización.
+Criterio editorial: excluir las fichas-placeholder y las que no tienen imagen definitiva. `home.js` selecciona las fichas de fauna con imagen disponible; las fichas-placeholder de flora no se incluyen.

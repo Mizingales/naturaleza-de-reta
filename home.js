@@ -11,7 +11,7 @@ const species = [
     name: "Garza",
     slug: "garza",
     category: "fauna",
-    image: "img/garza.jpg",
+    image: "img/garza.png",
     alt: "Garza en un ambiente de humedal",
     description: "Ave asociada a humedales y orillas, donde busca peces y pequeños animales."
   },
@@ -19,7 +19,7 @@ const species = [
     name: "Colibrí",
     slug: "colibri",
     category: "fauna",
-    image: "img/colibri.jpg",
+    image: "img/colibri.png",
     alt: "Colibrí alimentándose de una flor",
     description: "Pequeña ave que se alimenta principalmente del néctar de las flores."
   },
@@ -27,7 +27,7 @@ const species = [
     name: "Lechuza",
     slug: "lechuza",
     category: "fauna",
-    image: "img/lechuza.jpg",
+    image: "img/lechuza.png",
     alt: "Lechuza entre pastos naturales",
     description: "Ave rapaz que contribuye al equilibrio de las poblaciones de pequeños animales."
   },
@@ -35,7 +35,7 @@ const species = [
     name: "Flamenco",
     slug: "flamenco",
     category: "fauna",
-    image: "img/flamenco.jpg",
+    image: "img/flamenco.png",
     alt: "Flamenco en aguas poco profundas",
     description: "Ave acuática que puede observarse en ambientes costeros y lagunas."
   },
@@ -46,13 +46,7 @@ const species = [
     image: "img/tucu-tucu.png",
     alt: "Tucu-tucu entre la vegetación y el suelo arenoso",
     description: "Pequeño mamífero subterráneo adaptado a los suelos arenosos."
-  },
-  ...Array.from({ length: 6 }, (_, index) => ({
-    name: `Especie de flora ${index + 1}`,
-    slug: `especie-vegetal-${index + 1}`,
-    category: "flora",
-    description: "Descripción general en preparación."
-  }))
+  }
 ];
 
 const createSpeciesCard = (item, template) => {

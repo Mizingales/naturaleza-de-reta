@@ -5,7 +5,7 @@ Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 ## Tarjeta
 
 - Nombre: `Flamenco`
-- Imagen: `img/flamenco.jpg`
+- Imagen: `img/flamenco.png`
 - Texto alternativo en el catálogo: `Flamenco caminando con las alas desplegadas en aguas poco profundas`
 
 ### Tarjeta aleatoria de Inicio

@@ -5,7 +5,7 @@ Fuente: `biodiversidad-fauna.html`, ficha de fauna.
 ## Tarjeta
 
 - Nombre: `Colibrí`
-- Imagen: `img/colibri.jpg`
+- Imagen: `img/colibri.png`
 - Texto alternativo en el catálogo: `Colibrí alimentándose de una flor roja en vuelo`
 
 ### Tarjeta aleatoria de Inicio
